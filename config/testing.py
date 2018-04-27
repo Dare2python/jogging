@@ -1,0 +1,9 @@
+
+
+DEBUG = False
+TESTING = True
+IGNORE_AUTH = True
+SECRET_KEY = 'the-secret!'
+
+SQLALCHEMY_DATABASE_URI = 'sqlite:///:memory:'
+SQLALCHEMY_TRACK_MODIFICATIONS = False
